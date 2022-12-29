@@ -1,4 +1,5 @@
 import "./App.css";
+import Buy from "./components/buy/Buy";
 import IntroBody from "./components/IntroBody";
 import NavBar from "./components/NavBar";
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <NavBar />
       <IntroBody />
+      <Buy />
     </div>
   );
 }
